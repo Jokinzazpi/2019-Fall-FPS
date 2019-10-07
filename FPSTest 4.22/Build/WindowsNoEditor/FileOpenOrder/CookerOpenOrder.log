@@ -1,0 +1,701 @@
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_BB.uasset" 0
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/AmOnAir.uasset" 1
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/ChasePlayer.uasset" 2
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/FindPlayerPosition.uasset" 3
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/StopMoving.uasset" 4
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_BT.uasset" 5
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_AIController.uasset" 6
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 7
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 8
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 9
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 10
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 11
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 12
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Blue.uasset" 13
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Red.uasset" 14
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 15
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 16
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 17
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 18
+"../../../Engine/Content/BasicShapes/Cube.uasset" 19
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 20
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 21
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC.uasset" 22
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/BasicNPC.uasset" 23
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/Navigation/NavMesh_Links_BP.uasset" 24
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/NavMesh_Links_BP.uasset" 25
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/Navigation/NewBlueprint.uasset" 26
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_LightStreak_01.uasset" 27
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_LightStreak_01.uasset" 28
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_GlowSphere_01.uasset" 29
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Pop_01.uasset" 30
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SparkImpacts_2x2_01.uasset" 31
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SparksImpact_2x2_01.uasset" 32
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Pistol_MuzzleFlash.uasset" 33
+"../../../Engine/Content/EngineResources/Black.uasset" 34
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_D.uasset" 35
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_M.uasset" 36
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_N.uasset" 37
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_Master.uasset" 38
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_D.uasset" 39
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_M.uasset" 40
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_N.uasset" 41
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_PistolVer1_Inst.uasset" 42
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_PhysicsAsset.uasset" 43
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Skeleton.uasset" 44
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol.uasset" 45
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/Weapons/Pistol.uasset" 46
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Fonts/DebugFont.uasset" 47
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SmokeSimple_01.uasset" 48
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SmokeSimple_01.uasset" 49
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Grenadeauncher_MuzzleFlash.uasset" 50
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Skeleton.uasset" 51
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponShot_att.uasset" 52
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire01.uasset" 53
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire02.uasset" 54
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire03.uasset" 55
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire04.uasset" 56
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire05.uasset" 57
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire06.uasset" 58
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST01.uasset" 59
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST02.uasset" 60
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST03.uasset" 61
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST04.uasset" 62
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST05.uasset" 63
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST06.uasset" 64
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_Cue.uasset" 65
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_GrenadeLauncher_W.uasset" 66
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire01.uasset" 67
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire02.uasset" 68
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire03.uasset" 69
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire04.uasset" 70
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire05.uasset" 71
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST01.uasset" 72
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST02.uasset" 73
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST03.uasset" 74
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST04.uasset" 75
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST05.uasset" 76
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.uasset" 77
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Pistol_W.uasset" 78
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_AssaultRifle_MuzzleFlash.uasset" 79
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Skeleton.uasset" 80
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire01.uasset" 81
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire02.uasset" 82
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire03.uasset" 83
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire04.uasset" 84
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire05.uasset" 85
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST01.uasset" 86
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST02.uasset" 87
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST03.uasset" 88
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST04.uasset" 89
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST05.uasset" 90
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Fire_Cue.uasset" 91
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Rifle_W.uasset" 92
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_MuzzleFlash.uasset" 93
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Skeleton.uasset" 94
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA01.uasset" 95
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA02.uasset" 96
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA03.uasset" 97
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA04.uasset" 98
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA05.uasset" 99
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA06.uasset" 100
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA07.uasset" 101
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST01.uasset" 102
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST02.uasset" 103
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST03.uasset" 104
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST04.uasset" 105
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST05.uasset" 106
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST06.uasset" 107
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST07.uasset" 108
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_Cue.uasset" 109
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_RocketLauncher_W.uasset" 110
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Spark_01.uasset" 111
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Spark_01.uasset" 112
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Shotgun_MuzzleFlash.uasset" 113
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Skeleton.uasset" 114
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire01.uasset" 115
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire02.uasset" 116
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire03.uasset" 117
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire04.uasset" 118
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire05.uasset" 119
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST01.uasset" 120
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST02.uasset" 121
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST03.uasset" 122
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST04.uasset" 123
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST05.uasset" 124
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_Cue.uasset" 125
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponHandling_att.uasset" 126
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload01.uasset" 127
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload02.uasset" 128
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload03.uasset" 129
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload_Cue.uasset" 130
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Shotgun_W.uasset" 131
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_SniperRifle_MuzzleFlash.uasset" 132
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Skeleton.uasset" 133
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire01.uasset" 134
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire02.uasset" 135
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire03.uasset" 136
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire04.uasset" 137
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire05.uasset" 138
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire06.uasset" 139
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST01.uasset" 140
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST02.uasset" 141
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST03.uasset" 142
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST04.uasset" 143
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST05.uasset" 144
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST06.uasset" 145
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.uasset" 146
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_SniperRifle_W.uasset" 147
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload01.uasset" 148
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload02.uasset" 149
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload03.uasset" 150
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload04.uasset" 151
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload05.uasset" 152
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload_Cue.uasset" 153
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagEject.uasset" 154
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagEject_Cue.uasset" 155
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_Rifle_W.uasset" 156
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn01.uasset" 157
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn02.uasset" 158
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn03.uasset" 159
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn_Cue.uasset" 160
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut01.uasset" 161
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut02.uasset" 162
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut03.uasset" 163
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut_Cue.uasset" 164
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_Shotgun_W.uasset" 165
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload01.uasset" 166
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload02.uasset" 167
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload03.uasset" 168
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload_Cue.uasset" 169
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject.uasset" 170
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject_Cue.uasset" 171
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert.uasset" 172
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert_Cue.uasset" 173
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_SniperRifle_W.uasset" 174
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload01.uasset" 175
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload02.uasset" 176
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload03.uasset" 177
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload_Cue.uasset" 178
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadGrab.uasset" 179
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadGrab_Cue.uasset" 180
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadInsert.uasset" 181
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadInsert_Cue.uasset" 182
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_GrenadeLauncher_W.uasset" 183
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload01.uasset" 184
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload02.uasset" 185
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload03.uasset" 186
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload_Cue.uasset" 187
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject01.uasset" 188
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject_Cue.uasset" 189
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Pistol_W.uasset" 190
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Rifle_Hips_W.uasset" 191
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Rifle_Ironsights_W.uasset" 192
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload01.uasset" 193
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload02.uasset" 194
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload03.uasset" 195
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload_Cue.uasset" 196
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert01.uasset" 197
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert02.uasset" 198
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadIn_Cue.uasset" 199
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_RocketLauncher_W.uasset" 200
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Shotgun_Hips_W.uasset" 201
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Shotgun_Ironsights_W.uasset" 202
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_SniperRifle_Hips_W.uasset" 203
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_SniperRifle_Ironsights_W.uasset" 204
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Tracer_01.uasset" 205
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Meshes/St_Tracer_A.uasset" 206
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_AssaultRifle_Tracer.uasset" 207
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Ember_01.uasset" 208
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Ember_01.uasset" 209
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SphereNoise_01.uasset" 210
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SphereNoise_01.uasset" 211
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Meshes/St_Sphere_01.uasset" 212
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_GrenadeLauncher_Explosion_01.uasset" 213
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_GrenadeLauncher_Trail.uasset" 214
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Impact_01.uasset" 215
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Knife_RibbonGradient_01.uasset" 216
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Knife_RibbonTrail_01.uasset" 217
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Knife_RibbonTrail.uasset" 218
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_Explosion.uasset" 219
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_Trail.uasset" 220
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Shotgun_Tracer.uasset" 221
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_D.uasset" 222
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_M.uasset" 223
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_N.uasset" 224
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_AssualtRifleVer2_Inst.uasset" 225
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncherScope_E.uasset" 226
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_GrenadeLauncherVer2_Inst.uasset" 227
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_PistolVer2_Inst.uasset" 228
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_D.uasset" 229
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_M.uasset" 230
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_N.uasset" 231
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_RocketLauncherVer2_Inst.uasset" 232
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_D.uasset" 233
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_M.uasset" 234
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_N.uasset" 235
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_ShotgunVer2_Inst.uasset" 236
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_D.uasset" 237
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_M.uasset" 238
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_N.uasset" 239
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifleScope_E.uasset" 240
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_SniperRifleVer2_Inst.uasset" 241
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponShotClose_Att.uasset" 242
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_AmmoPickup.uasset" 243
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_AmmoPickup_Cue.uasset" 244
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/ProjectileImpact_att.uasset" 245
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce01.uasset" 246
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce02.uasset" 247
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce03.uasset" 248
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce04.uasset" 249
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce05.uasset" 250
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce06.uasset" 251
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce_Cue.uasset" 252
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/Explosion_att.uasset" 253
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion01.uasset" 254
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion02.uasset" 255
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion03.uasset" 256
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion04.uasset" 257
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion05.uasset" 258
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion06.uasset" 259
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion_Cue.uasset" 260
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Lower.uasset" 261
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Lower_Cue.uasset" 262
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Raise.uasset" 263
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Raise_Cue.uasset" 264
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody01.uasset" 265
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody02.uasset" 266
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody03.uasset" 267
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody04.uasset" 268
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody05.uasset" 269
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody_Cue.uasset" 270
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard01.uasset" 271
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard02.uasset" 272
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard03.uasset" 273
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard04.uasset" 274
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard05.uasset" 275
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Impact_Hard_Cue.uasset" 276
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light01.uasset" 277
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light02.uasset" 278
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light03.uasset" 279
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light04.uasset" 280
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light05.uasset" 281
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Impact_Light_Cue.uasset" 282
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Lower.uasset" 283
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Lower_Cue.uasset" 284
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Pickup.uasset" 285
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Pickup_Cue.uasset" 286
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Raise.uasset" 287
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Raise_Cue.uasset" 288
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish01.uasset" 289
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish02.uasset" 290
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish03.uasset" 291
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish04.uasset" 292
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish05.uasset" 293
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish06.uasset" 294
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish_Cue.uasset" 295
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire01.uasset" 296
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire02.uasset" 297
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire03.uasset" 298
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire04.uasset" 299
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire05.uasset" 300
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire06.uasset" 301
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire07.uasset" 302
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_Cue.uasset" 303
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST01.uasset" 304
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST02.uasset" 305
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST03.uasset" 306
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST04.uasset" 307
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST05.uasset" 308
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST06.uasset" 309
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST07.uasset" 310
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_AmmoPickup.uasset" 311
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_AmmoPickup_Cue.uasset" 312
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact01.uasset" 313
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact02.uasset" 314
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact03.uasset" 315
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact04.uasset" 316
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact05.uasset" 317
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact06.uasset" 318
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact07.uasset" 319
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact_Cue.uasset" 320
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip01.uasset" 321
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip02.uasset" 322
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip03.uasset" 323
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip04.uasset" 324
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip05.uasset" 325
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip06.uasset" 326
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip07.uasset" 327
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip_Cue.uasset" 328
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Lower01.uasset" 329
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Lower_Cue.uasset" 330
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Raise01.uasset" 331
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Raise_Cue.uasset" 332
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject02.uasset" 333
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagInsert.uasset" 334
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagInsert_Cue.uasset" 335
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoopEnd.uasset" 336
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoopEnd_ST.uasset" 337
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireEnd_Cue.uasset" 338
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop.uasset" 339
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop_ST.uasset" 340
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop_Cue.uasset" 341
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire01.uasset" 342
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire02.uasset" 343
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire03.uasset" 344
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire04.uasset" 345
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire05.uasset" 346
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST01.uasset" 347
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST02.uasset" 348
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST03.uasset" 349
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST04.uasset" 350
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST05.uasset" 351
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_Cue.uasset" 352
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_AmmoPickup.uasset" 353
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_AmmoPickup_Cue.uasset" 354
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact01.uasset" 355
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact02.uasset" 356
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact03.uasset" 357
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact04.uasset" 358
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact05.uasset" 359
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact06.uasset" 360
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact_Cue.uasset" 361
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip01.uasset" 362
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip02.uasset" 363
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip03.uasset" 364
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip04.uasset" 365
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip05.uasset" 366
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip06.uasset" 367
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip07.uasset" 368
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoopEnd.uasset" 369
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoopEnd_ST.uasset" 370
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_FireEnd_Cue.uasset" 371
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoop.uasset" 372
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoop_ST.uasset" 373
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_FireLoop_Cue.uasset" 374
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower01.uasset" 375
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower02.uasset" 376
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower_Cue.uasset" 377
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise01.uasset" 378
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise02.uasset" 379
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise_Cue.uasset" 380
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagInsert.uasset" 381
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagInsert_Cue.uasset" 382
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_AmmoPickup.uasset" 383
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_AmmoPickup_Cue.uasset" 384
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion01.uasset" 385
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion02.uasset" 386
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion03.uasset" 387
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion04.uasset" 388
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion05.uasset" 389
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion_Cue.uasset" 390
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB01.uasset" 391
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB02.uasset" 392
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB03.uasset" 393
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB04.uasset" 394
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB05.uasset" 395
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST01.uasset" 396
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST02.uasset" 397
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST03.uasset" 398
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST04.uasset" 399
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST05.uasset" 400
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_Cue.uasset" 401
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/RocketLoop_att.uasset" 402
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_InAirLoop.uasset" 403
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_InAirLoop_Cue.uasset" 404
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower01.uasset" 405
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower02.uasset" 406
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower_Cue.uasset" 407
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise01.uasset" 408
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise02.uasset" 409
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise_Cue.uasset" 410
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject01.uasset" 411
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject02.uasset" 412
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject_Cue.uasset" 413
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert03.uasset" 414
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_AmmoPickup.uasset" 415
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_AmmoPickup_Cue.uasset" 416
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact01.uasset" 417
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact02.uasset" 418
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact03.uasset" 419
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact04.uasset" 420
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact05.uasset" 421
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactA_Cue.uasset" 422
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB05.uasset" 423
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB06.uasset" 424
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB08.uasset" 425
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB12.uasset" 426
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB16.uasset" 427
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB_Cue.uasset" 428
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Lower.uasset" 429
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Lower_Cue.uasset" 430
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Raise.uasset" 431
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Raise_Cue.uasset" 432
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell01.uasset" 433
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell02.uasset" 434
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell03.uasset" 435
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell04.uasset" 436
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell05.uasset" 437
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell_Cue.uasset" 438
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup01.uasset" 439
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup01_Cue.uasset" 440
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup02.uasset" 441
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup02_Cue.uasset" 442
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup03.uasset" 443
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup03_Cue.uasset" 444
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact01.uasset" 445
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact02.uasset" 446
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact03.uasset" 447
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact04.uasset" 448
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact05.uasset" 449
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact_Cue.uasset" 450
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip01.uasset" 451
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip02.uasset" 452
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip03.uasset" 453
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip04.uasset" 454
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip05.uasset" 455
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip06.uasset" 456
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip_Cue.uasset" 457
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Lower.uasset" 458
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Lower_Cue.uasset" 459
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Raise.uasset" 460
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Raise_Cue.uasset" 461
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomIn.uasset" 462
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomIn_Cue.uasset" 463
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomOut.uasset" 464
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomOut_Cue.uasset" 465
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 466
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 467
+"../../../Engine/Content/BasicShapes/Plane.uasset" 468
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 469
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 470
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 471
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 472
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 473
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 474
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 475
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 476
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 477
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 478
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 479
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 480
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 481
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 482
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 483
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 484
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 485
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 486
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 487
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 488
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 489
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 490
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 491
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 492
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 493
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 494
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 495
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 496
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 497
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 498
+"../../../Engine/Content/EditorResources/S_Note.uasset" 499
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 500
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 501
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 502
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 503
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 504
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 505
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 506
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 507
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 508
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 509
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 510
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 511
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 512
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 513
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 514
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 515
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 516
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 517
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 518
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 519
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 520
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 521
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 522
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 523
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 524
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 525
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 526
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 527
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 528
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 529
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 530
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 531
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 532
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 533
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 534
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 535
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 536
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 537
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 538
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 539
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 540
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 541
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 542
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 543
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 544
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 545
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 546
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 547
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 548
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 549
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 550
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 551
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 552
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 553
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 554
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 555
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 556
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 557
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 558
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 559
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 560
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 561
+"../../../Engine/Content/EngineSounds/Master.uasset" 562
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 563
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 564
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 565
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 566
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 567
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 568
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 569
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 570
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 571
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 572
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 573
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 574
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 575
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 576
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 577
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 578
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 579
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 580
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 581
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 582
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 583
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 584
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 585
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 586
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 587
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 588
+"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 589
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 590
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 591
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 592
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 593
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 594
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 595
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 596
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 597
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 598
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 599
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 600
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 601
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 602
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 603
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 604
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 605
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 606
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 607
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 608
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 609
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 610
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 611
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 612
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 613
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 614
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 615
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 616
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 617
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 618
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 619
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 620
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 621
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 622
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 623
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 624
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 625
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 626
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 627
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 628
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/UI/Options.uasset" 629
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/UI/MainMenu.uasset" 630
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Levels/MainMenu.umap" 631
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/Spawner/SpawnPoint.uasset" 632
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 633
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 634
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 635
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 636
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 637
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 638
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 639
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 640
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 641
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 642
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Materials/TextMaterial.uasset" 643
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/TextRender.uasset" 644
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Pistol_Tracer.uasset" 645
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPCharacter.uasset" 646
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Textures/Crosshair1.uasset" 647
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPSHUD.uasset" 648
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPTestGameMode.uasset" 649
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym_BuiltData.uasset" 650
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Default.uasset" 651
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 652
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym.umap" 653
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 654
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/AI/TargetDummy.uasset" 655
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Environment/sentToMenu_Blueprint.uasset" 656
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym_movement_BuiltData.uasset" 657
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Materials/White.uasset" 658
+"../../../Engine/Content/BasicShapes/Cone.uasset" 659
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym_movement.umap" 660
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestMeshImport.umap" 661
+"../../../Engine/Content/TemplateResources/M_Template_Master.uasset" 662
+"../../../Engine/Content/TemplateResources/MI_Template_BaseGray_03_Metal.uasset" 663
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_AssualtRifleVer1_Inst.uasset" 664
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_PhysicsAsset.uasset" 665
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle.uasset" 666
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Ammo.uasset" 667
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Pickup.uasset" 668
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_GrenadeLauncherVer1_Inst.uasset" 669
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_PhysicsAsset.uasset" 670
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher.uasset" 671
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Ammo.uasset" 672
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Pickup.uasset" 673
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_D.uasset" 674
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_M.uasset" 675
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_N.uasset" 676
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_Knife.uasset" 677
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife_PhysicsAsset.uasset" 678
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife_Skeleton.uasset" 679
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife.uasset" 680
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Ammo.uasset" 681
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Pickup.uasset" 682
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_RocketLauncherVer1_Inst.uasset" 683
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_PhysicsAsset.uasset" 684
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher.uasset" 685
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Ammo.uasset" 686
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Pickup.uasset" 687
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_ShotgunVer1_Inst.uasset" 688
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_PhysicsAsset.uasset" 689
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun.uasset" 690
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Ammo.uasset" 691
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Pickup.uasset" 692
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_SniperRifle_Inst.uasset" 693
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_PhysicsAsset.uasset" 694
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle.uasset" 695
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Ammo.uasset" 696
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Pickup.uasset" 697
+"../../../../../../Users/m.navascues/Desktop/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Showcase.umap" 698
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 699
+"../../../Engine/Content/Maps/Entry.umap" 700
