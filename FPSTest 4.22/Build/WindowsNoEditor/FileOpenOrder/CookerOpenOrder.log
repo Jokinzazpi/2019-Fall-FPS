@@ -1,709 +1,803 @@
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_BB.uasset" 0
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/AmOnAir.uasset" 1
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/ChasePlayer.uasset" 2
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/FindPlayerPosition.uasset" 3
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/StopMoving.uasset" 4
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_BT.uasset" 5
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_AIController.uasset" 6
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 7
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 8
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 9
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 10
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 11
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 12
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Blue.uasset" 13
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Red.uasset" 14
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 15
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 16
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 17
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 18
-"../../../Engine/Content/BasicShapes/Cube.uasset" 19
-"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 20
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 21
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC.uasset" 22
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/BasicNPC.uasset" 23
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/Navigation/NavMesh_Links_BP.uasset" 24
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/NavMesh_Links_BP.uasset" 25
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/Navigation/NewBlueprint.uasset" 26
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Fonts/DebugFont.uasset" 27
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym_movement_BuiltData.uasset" 28
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestMeshImport_BuiltData.uasset" 29
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_LightStreak_01.uasset" 30
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_LightStreak_01.uasset" 31
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_GlowSphere_01.uasset" 32
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Pop_01.uasset" 33
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SmokeSimple_01.uasset" 34
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SmokeSimple_01.uasset" 35
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Grenadeauncher_MuzzleFlash.uasset" 36
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Skeleton.uasset" 37
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponShot_att.uasset" 38
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire01.uasset" 39
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire02.uasset" 40
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire03.uasset" 41
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire04.uasset" 42
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire05.uasset" 43
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire06.uasset" 44
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST01.uasset" 45
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST02.uasset" 46
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST03.uasset" 47
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST04.uasset" 48
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST05.uasset" 49
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST06.uasset" 50
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_Cue.uasset" 51
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_GrenadeLauncher_W.uasset" 52
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SparkImpacts_2x2_01.uasset" 53
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SparksImpact_2x2_01.uasset" 54
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Pistol_MuzzleFlash.uasset" 55
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Skeleton.uasset" 56
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire01.uasset" 57
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire02.uasset" 58
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire03.uasset" 59
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire04.uasset" 60
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire05.uasset" 61
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST01.uasset" 62
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST02.uasset" 63
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST03.uasset" 64
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST04.uasset" 65
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST05.uasset" 66
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.uasset" 67
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Pistol_W.uasset" 68
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_AssaultRifle_MuzzleFlash.uasset" 69
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Skeleton.uasset" 70
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire01.uasset" 71
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire02.uasset" 72
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire03.uasset" 73
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire04.uasset" 74
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire05.uasset" 75
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST01.uasset" 76
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST02.uasset" 77
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST03.uasset" 78
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST04.uasset" 79
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST05.uasset" 80
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Fire_Cue.uasset" 81
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Rifle_W.uasset" 82
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_MuzzleFlash.uasset" 83
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Skeleton.uasset" 84
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA01.uasset" 85
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA02.uasset" 86
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA03.uasset" 87
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA04.uasset" 88
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA05.uasset" 89
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA06.uasset" 90
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA07.uasset" 91
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST01.uasset" 92
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST02.uasset" 93
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST03.uasset" 94
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST04.uasset" 95
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST05.uasset" 96
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST06.uasset" 97
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST07.uasset" 98
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_Cue.uasset" 99
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_RocketLauncher_W.uasset" 100
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Spark_01.uasset" 101
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Spark_01.uasset" 102
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Shotgun_MuzzleFlash.uasset" 103
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Skeleton.uasset" 104
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire01.uasset" 105
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire02.uasset" 106
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire03.uasset" 107
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire04.uasset" 108
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire05.uasset" 109
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST01.uasset" 110
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST02.uasset" 111
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST03.uasset" 112
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST04.uasset" 113
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST05.uasset" 114
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_Cue.uasset" 115
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponHandling_att.uasset" 116
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload01.uasset" 117
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload02.uasset" 118
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload03.uasset" 119
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload_Cue.uasset" 120
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Shotgun_W.uasset" 121
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_SniperRifle_MuzzleFlash.uasset" 122
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Skeleton.uasset" 123
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire01.uasset" 124
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire02.uasset" 125
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire03.uasset" 126
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire04.uasset" 127
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire05.uasset" 128
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire06.uasset" 129
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST01.uasset" 130
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST02.uasset" 131
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST03.uasset" 132
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST04.uasset" 133
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST05.uasset" 134
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST06.uasset" 135
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.uasset" 136
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_SniperRifle_W.uasset" 137
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload01.uasset" 138
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload02.uasset" 139
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload03.uasset" 140
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload04.uasset" 141
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload05.uasset" 142
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload_Cue.uasset" 143
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagEject.uasset" 144
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagEject_Cue.uasset" 145
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_Rifle_W.uasset" 146
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn01.uasset" 147
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn02.uasset" 148
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn03.uasset" 149
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn_Cue.uasset" 150
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut01.uasset" 151
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut02.uasset" 152
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut03.uasset" 153
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut_Cue.uasset" 154
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_Shotgun_W.uasset" 155
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload01.uasset" 156
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload02.uasset" 157
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload03.uasset" 158
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload_Cue.uasset" 159
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject.uasset" 160
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject_Cue.uasset" 161
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert.uasset" 162
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert_Cue.uasset" 163
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_SniperRifle_W.uasset" 164
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload01.uasset" 165
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload02.uasset" 166
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload03.uasset" 167
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload_Cue.uasset" 168
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadGrab.uasset" 169
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadGrab_Cue.uasset" 170
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadInsert.uasset" 171
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadInsert_Cue.uasset" 172
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_GrenadeLauncher_W.uasset" 173
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload01.uasset" 174
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload02.uasset" 175
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload03.uasset" 176
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload_Cue.uasset" 177
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject01.uasset" 178
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject_Cue.uasset" 179
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Pistol_W.uasset" 180
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Rifle_Hips_W.uasset" 181
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Rifle_Ironsights_W.uasset" 182
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload01.uasset" 183
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload02.uasset" 184
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload03.uasset" 185
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload_Cue.uasset" 186
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert01.uasset" 187
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert02.uasset" 188
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadIn_Cue.uasset" 189
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_RocketLauncher_W.uasset" 190
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Shotgun_Hips_W.uasset" 191
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Shotgun_Ironsights_W.uasset" 192
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_SniperRifle_Hips_W.uasset" 193
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_SniperRifle_Ironsights_W.uasset" 194
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Tracer_01.uasset" 195
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Meshes/St_Tracer_A.uasset" 196
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_AssaultRifle_Tracer.uasset" 197
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Ember_01.uasset" 198
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Ember_01.uasset" 199
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SphereNoise_01.uasset" 200
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SphereNoise_01.uasset" 201
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Meshes/St_Sphere_01.uasset" 202
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_GrenadeLauncher_Explosion_01.uasset" 203
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_GrenadeLauncher_Trail.uasset" 204
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Impact_01.uasset" 205
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Knife_RibbonGradient_01.uasset" 206
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Knife_RibbonTrail_01.uasset" 207
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Knife_RibbonTrail.uasset" 208
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Pistol_Tracer.uasset" 209
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_Explosion.uasset" 210
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_Trail.uasset" 211
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Shotgun_Tracer.uasset" 212
-"../../../Engine/Content/EngineResources/Black.uasset" 213
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_D.uasset" 214
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_M.uasset" 215
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_N.uasset" 216
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_Master.uasset" 217
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_D.uasset" 218
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_M.uasset" 219
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_N.uasset" 220
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_AssualtRifleVer2_Inst.uasset" 221
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncherScope_E.uasset" 222
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_GrenadeLauncherVer2_Inst.uasset" 223
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_D.uasset" 224
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_M.uasset" 225
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_N.uasset" 226
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_PistolVer2_Inst.uasset" 227
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_D.uasset" 228
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_M.uasset" 229
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_N.uasset" 230
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_RocketLauncherVer2_Inst.uasset" 231
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_D.uasset" 232
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_M.uasset" 233
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_N.uasset" 234
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_ShotgunVer2_Inst.uasset" 235
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_D.uasset" 236
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_M.uasset" 237
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_N.uasset" 238
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifleScope_E.uasset" 239
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_SniperRifleVer2_Inst.uasset" 240
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponShotClose_Att.uasset" 241
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_AmmoPickup.uasset" 242
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_AmmoPickup_Cue.uasset" 243
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/ProjectileImpact_att.uasset" 244
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce01.uasset" 245
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce02.uasset" 246
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce03.uasset" 247
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce04.uasset" 248
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce05.uasset" 249
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce06.uasset" 250
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce_Cue.uasset" 251
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/Explosion_att.uasset" 252
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion01.uasset" 253
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion02.uasset" 254
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion03.uasset" 255
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion04.uasset" 256
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion05.uasset" 257
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion06.uasset" 258
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion_Cue.uasset" 259
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Lower.uasset" 260
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Lower_Cue.uasset" 261
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Raise.uasset" 262
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Raise_Cue.uasset" 263
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody01.uasset" 264
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody02.uasset" 265
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody03.uasset" 266
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody04.uasset" 267
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody05.uasset" 268
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody_Cue.uasset" 269
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard01.uasset" 270
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard02.uasset" 271
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard03.uasset" 272
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard04.uasset" 273
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard05.uasset" 274
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Impact_Hard_Cue.uasset" 275
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light01.uasset" 276
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light02.uasset" 277
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light03.uasset" 278
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light04.uasset" 279
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light05.uasset" 280
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Impact_Light_Cue.uasset" 281
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Lower.uasset" 282
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Lower_Cue.uasset" 283
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Pickup.uasset" 284
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Pickup_Cue.uasset" 285
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Raise.uasset" 286
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Raise_Cue.uasset" 287
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish01.uasset" 288
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish02.uasset" 289
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish03.uasset" 290
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish04.uasset" 291
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish05.uasset" 292
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish06.uasset" 293
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish_Cue.uasset" 294
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire01.uasset" 295
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire02.uasset" 296
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire03.uasset" 297
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire04.uasset" 298
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire05.uasset" 299
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire06.uasset" 300
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire07.uasset" 301
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_Cue.uasset" 302
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST01.uasset" 303
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST02.uasset" 304
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST03.uasset" 305
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST04.uasset" 306
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST05.uasset" 307
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST06.uasset" 308
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST07.uasset" 309
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_AmmoPickup.uasset" 310
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_AmmoPickup_Cue.uasset" 311
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact01.uasset" 312
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact02.uasset" 313
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact03.uasset" 314
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact04.uasset" 315
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact05.uasset" 316
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact06.uasset" 317
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact07.uasset" 318
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact_Cue.uasset" 319
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip01.uasset" 320
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip02.uasset" 321
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip03.uasset" 322
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip04.uasset" 323
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip05.uasset" 324
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip06.uasset" 325
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip07.uasset" 326
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip_Cue.uasset" 327
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Lower01.uasset" 328
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Lower_Cue.uasset" 329
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Raise01.uasset" 330
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Raise_Cue.uasset" 331
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject02.uasset" 332
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagInsert.uasset" 333
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagInsert_Cue.uasset" 334
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoopEnd.uasset" 335
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoopEnd_ST.uasset" 336
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireEnd_Cue.uasset" 337
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop.uasset" 338
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop_ST.uasset" 339
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop_Cue.uasset" 340
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire01.uasset" 341
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire02.uasset" 342
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire03.uasset" 343
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire04.uasset" 344
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire05.uasset" 345
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST01.uasset" 346
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST02.uasset" 347
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST03.uasset" 348
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST04.uasset" 349
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST05.uasset" 350
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_Cue.uasset" 351
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_AmmoPickup.uasset" 352
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_AmmoPickup_Cue.uasset" 353
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact01.uasset" 354
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact02.uasset" 355
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact03.uasset" 356
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact04.uasset" 357
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact05.uasset" 358
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact06.uasset" 359
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact_Cue.uasset" 360
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip01.uasset" 361
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip02.uasset" 362
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip03.uasset" 363
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip04.uasset" 364
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip05.uasset" 365
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip06.uasset" 366
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip07.uasset" 367
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoopEnd.uasset" 368
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoopEnd_ST.uasset" 369
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_FireEnd_Cue.uasset" 370
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoop.uasset" 371
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoop_ST.uasset" 372
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_FireLoop_Cue.uasset" 373
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower01.uasset" 374
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower02.uasset" 375
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower_Cue.uasset" 376
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise01.uasset" 377
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise02.uasset" 378
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise_Cue.uasset" 379
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagInsert.uasset" 380
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagInsert_Cue.uasset" 381
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_AmmoPickup.uasset" 382
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_AmmoPickup_Cue.uasset" 383
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion01.uasset" 384
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion02.uasset" 385
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion03.uasset" 386
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion04.uasset" 387
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion05.uasset" 388
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion_Cue.uasset" 389
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB01.uasset" 390
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB02.uasset" 391
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB03.uasset" 392
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB04.uasset" 393
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB05.uasset" 394
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST01.uasset" 395
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST02.uasset" 396
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST03.uasset" 397
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST04.uasset" 398
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST05.uasset" 399
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_Cue.uasset" 400
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/RocketLoop_att.uasset" 401
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_InAirLoop.uasset" 402
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_InAirLoop_Cue.uasset" 403
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower01.uasset" 404
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower02.uasset" 405
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower_Cue.uasset" 406
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise01.uasset" 407
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise02.uasset" 408
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise_Cue.uasset" 409
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject01.uasset" 410
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject02.uasset" 411
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject_Cue.uasset" 412
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert03.uasset" 413
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_AmmoPickup.uasset" 414
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_AmmoPickup_Cue.uasset" 415
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact01.uasset" 416
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact02.uasset" 417
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact03.uasset" 418
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact04.uasset" 419
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact05.uasset" 420
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactA_Cue.uasset" 421
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB05.uasset" 422
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB06.uasset" 423
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB08.uasset" 424
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB12.uasset" 425
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB16.uasset" 426
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB_Cue.uasset" 427
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Lower.uasset" 428
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Lower_Cue.uasset" 429
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Raise.uasset" 430
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Raise_Cue.uasset" 431
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell01.uasset" 432
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell02.uasset" 433
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell03.uasset" 434
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell04.uasset" 435
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell05.uasset" 436
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell_Cue.uasset" 437
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup01.uasset" 438
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup01_Cue.uasset" 439
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup02.uasset" 440
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup02_Cue.uasset" 441
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup03.uasset" 442
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup03_Cue.uasset" 443
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact01.uasset" 444
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact02.uasset" 445
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact03.uasset" 446
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact04.uasset" 447
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact05.uasset" 448
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact_Cue.uasset" 449
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip01.uasset" 450
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip02.uasset" 451
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip03.uasset" 452
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip04.uasset" 453
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip05.uasset" 454
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip06.uasset" 455
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip_Cue.uasset" 456
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Lower.uasset" 457
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Lower_Cue.uasset" 458
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Raise.uasset" 459
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Raise_Cue.uasset" 460
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomIn.uasset" 461
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomIn_Cue.uasset" 462
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomOut.uasset" 463
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomOut_Cue.uasset" 464
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Textures/Crosshair1.uasset" 465
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 466
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Materials/TextMaterial.uasset" 467
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/TextRender.uasset" 468
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 469
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_PistolVer1_Inst.uasset" 470
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_PhysicsAsset.uasset" 471
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol.uasset" 472
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/Weapons/Pistol.uasset" 473
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_ShotgunVer1_Inst.uasset" 474
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_PhysicsAsset.uasset" 475
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun.uasset" 476
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/Weapons/Shotgun.uasset" 477
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPCharacter.uasset" 478
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/BlueprintLibrary/get_FPScharacter.uasset" 479
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/UI/HUD.uasset" 480
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/UI/FPSHUD.uasset" 481
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 482
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 483
-"../../../Engine/Content/BasicShapes/Plane.uasset" 484
-"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 485
-"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 486
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 487
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 488
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 489
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 490
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 491
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 492
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 493
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 494
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 495
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 496
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 497
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 498
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 499
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 500
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 501
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 502
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 503
-"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 504
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 505
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 506
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 507
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 508
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 509
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 510
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 511
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 512
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 513
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 514
-"../../../Engine/Content/EditorResources/S_Note.uasset" 515
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 516
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 517
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 518
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 519
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 520
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 521
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 522
-"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 523
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 524
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 525
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 526
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 527
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 528
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 529
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 530
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 531
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 532
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 533
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 534
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 535
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 536
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 537
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 538
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 539
-"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 540
-"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 541
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 542
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 543
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 544
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 545
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 546
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 547
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 548
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 549
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 550
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 551
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 552
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 553
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 554
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 555
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 556
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 557
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 558
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 559
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 560
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 561
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 562
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 563
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 564
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 565
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 566
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 567
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 568
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 569
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 570
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 571
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 572
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 573
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 574
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 575
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 576
-"../../../Engine/Content/EngineSounds/Master.uasset" 577
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 578
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 579
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 580
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 581
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 582
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 583
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 584
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 585
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 586
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 587
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 588
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 589
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 590
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 591
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 592
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 593
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 594
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 595
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 596
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 597
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 598
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 599
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 600
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 601
-"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 602
-"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 603
-"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 604
-"../../../Engine/Content/Tutorial/Basics/TutorialAssets/CameraActor_64x.uasset" 605
-"../../../Engine/Content/Tutorial/Basics/ViewportsTutorial.uasset" 606
-"../../../Engine/Content/Tutorial/SubEditors/GettingSubstance.uasset" 607
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 608
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 609
-"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 610
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 611
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 612
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 613
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 614
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 615
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 616
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 617
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 618
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 619
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 620
-"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 621
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 622
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 623
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 624
-"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 625
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 626
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 627
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 628
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 629
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 630
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 631
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 632
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 633
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 634
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 635
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 636
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 637
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 638
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 639
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 640
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 641
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 642
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 643
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 644
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Levels/MainLevel_BuiltData.uasset" 645
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Cristal.uasset" 646
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Green.uasset" 647
-"../../../Engine/Content/BasicShapes/Cone.uasset" 648
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 649
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 650
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Levels/MainLevel.umap" 651
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/UI/Options.uasset" 652
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/UI/MainMenu.uasset" 653
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Levels/MainMenu.umap" 654
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/Spawner/SpawnPoint.uasset" 655
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 656
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 657
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 658
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 659
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 660
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 661
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 662
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 663
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 664
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPSHUD.uasset" 665
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPTestGameMode.uasset" 666
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Default.uasset" 667
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym.umap" 668
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/AI/TargetDummy.uasset" 669
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Environment/sentToMenu_Blueprint.uasset" 670
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Materials/White.uasset" 671
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym_movement.umap" 672
-"../../../Engine/Content/TemplateResources/M_Template_Master.uasset" 673
-"../../../Engine/Content/TemplateResources/MI_Template_BaseGray_03_Metal.uasset" 674
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_AssualtRifleVer1_Inst.uasset" 675
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_PhysicsAsset.uasset" 676
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle.uasset" 677
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Ammo.uasset" 678
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Pickup.uasset" 679
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_GrenadeLauncherVer1_Inst.uasset" 680
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_PhysicsAsset.uasset" 681
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher.uasset" 682
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Ammo.uasset" 683
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Pickup.uasset" 684
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_D.uasset" 685
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_M.uasset" 686
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_N.uasset" 687
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_Knife.uasset" 688
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife_PhysicsAsset.uasset" 689
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife_Skeleton.uasset" 690
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife.uasset" 691
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Ammo.uasset" 692
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Pickup.uasset" 693
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_RocketLauncherVer1_Inst.uasset" 694
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_PhysicsAsset.uasset" 695
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher.uasset" 696
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Ammo.uasset" 697
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Pickup.uasset" 698
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Ammo.uasset" 699
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Pickup.uasset" 700
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_SniperRifle_Inst.uasset" 701
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_PhysicsAsset.uasset" 702
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle.uasset" 703
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Ammo.uasset" 704
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Pickup.uasset" 705
-"../../../../../../Users/markel.p/Desktop/gam400_github/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Showcase.umap" 706
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 707
-"../../../Engine/Content/Maps/Entry.umap" 708
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 0
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Spawner/SpawnPoint.uasset" 1
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/WaveSystem/WaveController.uasset" 2
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_BB.uasset" 3
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/AmOnAir.uasset" 4
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/ChasePlayer.uasset" 5
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/FindPlayerPosition.uasset" 6
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/BT_Nodes/StopMoving.uasset" 7
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_BT.uasset" 8
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC_AIController.uasset" 9
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 10
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 11
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ValueStep.uasset" 12
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Textures/T_FireSmoke.uasset" 13
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Textures/T_Mask.uasset" 14
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/Minion_Silhouette.uasset" 15
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/M_Enemy_Dissolve.uasset" 16
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Red.uasset" 17
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/M_Enemy_Dissolve_Inst.uasset" 18
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 19
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 20
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 21
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 22
+"../../../Engine/Content/BasicShapes/Cube.uasset" 23
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Basic_NPC/BasicNPC.uasset" 24
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/BasicNPC.uasset" 25
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Navigation/NavMesh_Links_BP.uasset" 26
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/NavMesh_Links_BP.uasset" 27
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Navigation/NewBlueprint.uasset" 28
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 29
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/erode_enemy_particles.uasset" 30
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Textures/T_muzzle_flash01.uasset" 31
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/M_Enemy_Dissolve_Particles1.uasset" 32
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/MS_StaticMesh_Desitegration.uasset" 33
+"../../Plugins/FX/Niagara/Content/DynamicInputs/Angles/NormalizedAngleToDegrees.uasset" 34
+"../../Plugins/FX/Niagara/Content/DynamicInputs/TypeConversions/Vector2DFromFloat.uasset" 35
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraRandomnessMode.uasset" 36
+"../../Plugins/FX/Niagara/Content/Functions/RandomRange.uasset" 37
+"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/UniformRangedFloat.uasset" 38
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/ParticleOwnerPosition.uasset" 39
+"../../Plugins/FX/Niagara/Content/Functions/Emitter/EmitterChangeState.uasset" 40
+"../../Plugins/FX/Niagara/Content/Modules/Emitter/EmitterLifeCycle.uasset" 41
+"../../Plugins/FX/Niagara/Content/Modules/Emitter/SpawnRate.uasset" 42
+"../../Plugins/FX/Niagara/Content/Modules/Solvers/ApplyInitialForces.uasset" 43
+"../../Plugins/FX/Niagara/Content/Functions/DirectionAndLengthSafe.uasset" 44
+"../../Plugins/FX/Niagara/Content/Functions/Rotation/AxisAngleToQuaternion.uasset" 45
+"../../Plugins/FX/Niagara/Content/Functions/Rotation/MultiplyQuaternion.uasset" 46
+"../../Plugins/FX/Niagara/Content/Modules/Solvers/SolveForcesAndVelocity.uasset" 47
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Initialization/InitializeParticle.uasset" 48
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCoordinateSpace.uasset" 49
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/ENiagaraCoordinateSpace.uasset" 50
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformBase.uasset" 51
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformOffset.uasset" 52
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/AddVelocity.uasset" 53
+"../../Plugins/FX/Niagara/Content/Functions/FindAngleBetweenVectors.uasset" 54
+"../../Plugins/FX/Niagara/Content/Functions/Masks/ConeMask.uasset" 55
+"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/CurlNoiseForce.uasset" 56
+"../../Plugins/FX/Niagara/Content/Modules/Update/Lifetime/UpdateAge.uasset" 57
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset" 58
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.uasset" 59
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/M_disolve_enemy.uasset" 60
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Mesh/SM_Enemy.uasset" 61
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/EM_particle.uasset" 62
+"../../Plugins/FX/Niagara/Content/Functions/System/SystemChangeState.uasset" 63
+"../../Plugins/FX/Niagara/Content/Modules/System/SystemLifeCycle.uasset" 64
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/enemy_disolve_sys.uasset" 65
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/erode_enemy.uasset" 66
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/FM_Sphere_Mask.uasset" 67
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/MS_SkeletalMesh_Desitegration.uasset" 68
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/M_disolve_enemy_Inst.uasset" 69
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/M_lava.uasset" 70
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/M_Particles.uasset" 71
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/M_Particles_Inst.uasset" 72
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/SK_Enemy_Base.uasset" 73
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/EnemyDeath/SM_Enemy.uasset" 74
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Materials/M_disolve_enemy.uasset" 75
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Materials/M_disolve_enemy_Inst.uasset" 76
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Materials/M_lava.uasset" 77
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Mesh/Fbx_Default_Material_0.uasset" 78
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Textures/T_muzzle_flash02.uasset" 79
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Particle_Systems/Textures/T_sparks01.uasset" 80
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/backg_1.uasset" 81
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/backg_2.uasset" 82
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/backg_3.uasset" 83
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/backg_4.uasset" 84
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/characters.uasset" 85
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/conceot_weapons.uasset" 86
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/concepts_weaponss.uasset" 87
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/concept_enemy_sketch.uasset" 88
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/concept_weapons.uasset" 89
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/dj_booth_conceppts.uasset" 90
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/dj_booth_concept.uasset" 91
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/este_te_gusta.uasset" 92
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/flying_enemy_1.uasset" 93
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/flying_enemy_2.uasset" 94
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/head_enemy_concept.uasset" 95
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/head_enemy_concept_2.uasset" 96
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/mother_enemy.uasset" 97
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/sf.uasset" 98
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/tank_enemy.uasset" 99
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Fonts/DebugFont.uasset" 100
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym_movement_BuiltData.uasset" 101
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestMeshImport_BuiltData.uasset" 102
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_LightStreak_01.uasset" 103
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_LightStreak_01.uasset" 104
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_GlowSphere_01.uasset" 105
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Pop_01.uasset" 106
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SmokeSimple_01.uasset" 107
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SmokeSimple_01.uasset" 108
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Grenadeauncher_MuzzleFlash.uasset" 109
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Skeleton.uasset" 110
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponShot_att.uasset" 111
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire01.uasset" 112
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire02.uasset" 113
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire03.uasset" 114
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire04.uasset" 115
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire05.uasset" 116
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire06.uasset" 117
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST01.uasset" 118
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST02.uasset" 119
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST03.uasset" 120
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST04.uasset" 121
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST05.uasset" 122
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_ST06.uasset" 123
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Fire_Cue.uasset" 124
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_GrenadeLauncher_W.uasset" 125
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SparkImpacts_2x2_01.uasset" 126
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SparksImpact_2x2_01.uasset" 127
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Pistol_MuzzleFlash.uasset" 128
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Skeleton.uasset" 129
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire01.uasset" 130
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire02.uasset" 131
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire03.uasset" 132
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire04.uasset" 133
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire05.uasset" 134
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST01.uasset" 135
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST02.uasset" 136
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST03.uasset" 137
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST04.uasset" 138
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_ST05.uasset" 139
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.uasset" 140
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Pistol_W.uasset" 141
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_AssaultRifle_MuzzleFlash.uasset" 142
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Skeleton.uasset" 143
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire01.uasset" 144
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire02.uasset" 145
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire03.uasset" 146
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire04.uasset" 147
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire05.uasset" 148
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST01.uasset" 149
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST02.uasset" 150
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST03.uasset" 151
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST04.uasset" 152
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_Fire_ST05.uasset" 153
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Fire_Cue.uasset" 154
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Rifle_W.uasset" 155
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_MuzzleFlash.uasset" 156
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Skeleton.uasset" 157
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA01.uasset" 158
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA02.uasset" 159
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA03.uasset" 160
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA04.uasset" 161
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA05.uasset" 162
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA06.uasset" 163
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA07.uasset" 164
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST01.uasset" 165
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST02.uasset" 166
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST03.uasset" 167
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST04.uasset" 168
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST05.uasset" 169
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST06.uasset" 170
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_ST07.uasset" 171
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireA_Cue.uasset" 172
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_RocketLauncher_W.uasset" 173
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Spark_01.uasset" 174
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Spark_01.uasset" 175
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Shotgun_MuzzleFlash.uasset" 176
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Skeleton.uasset" 177
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire01.uasset" 178
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire02.uasset" 179
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire03.uasset" 180
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire04.uasset" 181
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire05.uasset" 182
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST01.uasset" 183
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST02.uasset" 184
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST03.uasset" 185
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST04.uasset" 186
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_ST05.uasset" 187
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Fire_Cue.uasset" 188
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponHandling_att.uasset" 189
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload01.uasset" 190
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload02.uasset" 191
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload03.uasset" 192
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Reload_Cue.uasset" 193
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_Shotgun_W.uasset" 194
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_SniperRifle_MuzzleFlash.uasset" 195
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Skeleton.uasset" 196
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire01.uasset" 197
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire02.uasset" 198
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire03.uasset" 199
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire04.uasset" 200
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire05.uasset" 201
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire06.uasset" 202
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST01.uasset" 203
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST02.uasset" 204
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST03.uasset" 205
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST04.uasset" 206
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST05.uasset" 207
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_ST06.uasset" 208
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.uasset" 209
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Fire_SniperRifle_W.uasset" 210
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload01.uasset" 211
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload02.uasset" 212
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload03.uasset" 213
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload04.uasset" 214
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload05.uasset" 215
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Reload_Cue.uasset" 216
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagEject.uasset" 217
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagEject_Cue.uasset" 218
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_Rifle_W.uasset" 219
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn01.uasset" 220
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn02.uasset" 221
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn03.uasset" 222
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadIn_Cue.uasset" 223
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut01.uasset" 224
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut02.uasset" 225
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut03.uasset" 226
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadOut_Cue.uasset" 227
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_Shotgun_W.uasset" 228
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload01.uasset" 229
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload02.uasset" 230
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload03.uasset" 231
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Reload_Cue.uasset" 232
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject.uasset" 233
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagEject_Cue.uasset" 234
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert.uasset" 235
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ReloadMagInsert_Cue.uasset" 236
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Prone_Reload_SniperRifle_W.uasset" 237
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload01.uasset" 238
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload02.uasset" 239
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload03.uasset" 240
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Reload_Cue.uasset" 241
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadGrab.uasset" 242
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadGrab_Cue.uasset" 243
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadInsert.uasset" 244
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_ReloadInsert_Cue.uasset" 245
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_GrenadeLauncher_W.uasset" 246
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload01.uasset" 247
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload02.uasset" 248
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload03.uasset" 249
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Reload_Cue.uasset" 250
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject01.uasset" 251
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject_Cue.uasset" 252
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Pistol_W.uasset" 253
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Rifle_Hips_W.uasset" 254
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Rifle_Ironsights_W.uasset" 255
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload01.uasset" 256
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload02.uasset" 257
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload03.uasset" 258
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Reload_Cue.uasset" 259
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert01.uasset" 260
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert02.uasset" 261
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadIn_Cue.uasset" 262
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_RocketLauncher_W.uasset" 263
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Shotgun_Hips_W.uasset" 264
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_Shotgun_Ironsights_W.uasset" 265
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_SniperRifle_Hips_W.uasset" 266
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Anims/Reload_SniperRifle_Ironsights_W.uasset" 267
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Tracer_01.uasset" 268
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Meshes/St_Tracer_A.uasset" 269
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_AssaultRifle_Tracer.uasset" 270
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Ember_01.uasset" 271
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Ember_01.uasset" 272
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_SphereNoise_01.uasset" 273
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_SphereNoise_01.uasset" 274
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Meshes/St_Sphere_01.uasset" 275
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_GrenadeLauncher_Explosion_01.uasset" 276
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_GrenadeLauncher_Trail.uasset" 277
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Impact_01.uasset" 278
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Textures/T_Knife_RibbonGradient_01.uasset" 279
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/Materials/M_Knife_RibbonTrail_01.uasset" 280
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Knife_RibbonTrail.uasset" 281
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Pistol_Tracer.uasset" 282
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_Explosion.uasset" 283
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_RocketLauncher_Trail.uasset" 284
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/FX/P_Shotgun_Tracer.uasset" 285
+"../../../Engine/Content/EngineResources/Black.uasset" 286
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_D.uasset" 287
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_M.uasset" 288
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncher_N.uasset" 289
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_Master.uasset" 290
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_D.uasset" 291
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_M.uasset" 292
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_AssaultRifle_N.uasset" 293
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_AssualtRifleVer2_Inst.uasset" 294
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_GrenadeLauncherScope_E.uasset" 295
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_GrenadeLauncherVer2_Inst.uasset" 296
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_D.uasset" 297
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_M.uasset" 298
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Pistol_N.uasset" 299
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_PistolVer2_Inst.uasset" 300
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_D.uasset" 301
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_M.uasset" 302
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_RocketLauncher_N.uasset" 303
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_RocketLauncherVer2_Inst.uasset" 304
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_D.uasset" 305
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_M.uasset" 306
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Shotgun_N.uasset" 307
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_ShotgunVer2_Inst.uasset" 308
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_D.uasset" 309
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_M.uasset" 310
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifle_N.uasset" 311
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_SniperRifleScope_E.uasset" 312
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_SniperRifleVer2_Inst.uasset" 313
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/WeaponShotClose_Att.uasset" 314
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_AmmoPickup.uasset" 315
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_AmmoPickup_Cue.uasset" 316
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/ProjectileImpact_att.uasset" 317
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce01.uasset" 318
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce02.uasset" 319
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce03.uasset" 320
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce04.uasset" 321
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce05.uasset" 322
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce06.uasset" 323
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Bounce_Cue.uasset" 324
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/Explosion_att.uasset" 325
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion01.uasset" 326
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion02.uasset" 327
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion03.uasset" 328
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion04.uasset" 329
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion05.uasset" 330
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion06.uasset" 331
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Explosion_Cue.uasset" 332
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Lower.uasset" 333
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Lower_Cue.uasset" 334
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Raise.uasset" 335
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/GrenadeLauncher/GL_Raise_Cue.uasset" 336
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody01.uasset" 337
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody02.uasset" 338
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody03.uasset" 339
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody04.uasset" 340
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody05.uasset" 341
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactBody_Cue.uasset" 342
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard01.uasset" 343
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard02.uasset" 344
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard03.uasset" 345
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard04.uasset" 346
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Hard05.uasset" 347
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Impact_Hard_Cue.uasset" 348
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light01.uasset" 349
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light02.uasset" 350
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light03.uasset" 351
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light04.uasset" 352
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_ImpactSurface_Light05.uasset" 353
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Impact_Light_Cue.uasset" 354
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Lower.uasset" 355
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Lower_Cue.uasset" 356
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Pickup.uasset" 357
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Pickup_Cue.uasset" 358
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Raise.uasset" 359
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Raise_Cue.uasset" 360
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish01.uasset" 361
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish02.uasset" 362
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish03.uasset" 363
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish04.uasset" 364
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish05.uasset" 365
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish06.uasset" 366
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Knife/Knife_Swish_Cue.uasset" 367
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire01.uasset" 368
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire02.uasset" 369
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire03.uasset" 370
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire04.uasset" 371
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire05.uasset" 372
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire06.uasset" 373
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire07.uasset" 374
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_Cue.uasset" 375
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST01.uasset" 376
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST02.uasset" 377
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST03.uasset" 378
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST04.uasset" 379
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST05.uasset" 380
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST06.uasset" 381
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/PistolB_Fire_ST07.uasset" 382
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_AmmoPickup.uasset" 383
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_AmmoPickup_Cue.uasset" 384
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact01.uasset" 385
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact02.uasset" 386
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact03.uasset" 387
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact04.uasset" 388
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact05.uasset" 389
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact06.uasset" 390
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact07.uasset" 391
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletImpact_Cue.uasset" 392
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip01.uasset" 393
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip02.uasset" 394
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip03.uasset" 395
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip04.uasset" 396
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip05.uasset" 397
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip06.uasset" 398
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip07.uasset" 399
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_BulletWhip_Cue.uasset" 400
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Lower01.uasset" 401
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Lower_Cue.uasset" 402
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Raise01.uasset" 403
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_Raise_Cue.uasset" 404
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagEject02.uasset" 405
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagInsert.uasset" 406
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Pistol/Pistol_ReloadMagInsert_Cue.uasset" 407
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoopEnd.uasset" 408
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoopEnd_ST.uasset" 409
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireEnd_Cue.uasset" 410
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop.uasset" 411
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop_ST.uasset" 412
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_FireLoop_Cue.uasset" 413
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire01.uasset" 414
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire02.uasset" 415
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire03.uasset" 416
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire04.uasset" 417
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire05.uasset" 418
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST01.uasset" 419
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST02.uasset" 420
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST03.uasset" 421
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST04.uasset" 422
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_ST05.uasset" 423
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleB_Fire_Cue.uasset" 424
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_AmmoPickup.uasset" 425
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_AmmoPickup_Cue.uasset" 426
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact01.uasset" 427
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact02.uasset" 428
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact03.uasset" 429
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact04.uasset" 430
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact05.uasset" 431
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact06.uasset" 432
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletImpact_Cue.uasset" 433
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip01.uasset" 434
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip02.uasset" 435
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip03.uasset" 436
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip04.uasset" 437
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip05.uasset" 438
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip06.uasset" 439
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_BulletWhip07.uasset" 440
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoopEnd.uasset" 441
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoopEnd_ST.uasset" 442
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_FireEnd_Cue.uasset" 443
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoop.uasset" 444
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/RifleA_FireLoop_ST.uasset" 445
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_FireLoop_Cue.uasset" 446
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower01.uasset" 447
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower02.uasset" 448
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Lower_Cue.uasset" 449
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise01.uasset" 450
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise02.uasset" 451
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_Raise_Cue.uasset" 452
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagInsert.uasset" 453
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Rifle/Rifle_ReloadMagInsert_Cue.uasset" 454
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_AmmoPickup.uasset" 455
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_AmmoPickup_Cue.uasset" 456
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion01.uasset" 457
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion02.uasset" 458
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion03.uasset" 459
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion04.uasset" 460
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion05.uasset" 461
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Explosion_Cue.uasset" 462
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB01.uasset" 463
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB02.uasset" 464
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB03.uasset" 465
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB04.uasset" 466
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB05.uasset" 467
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST01.uasset" 468
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST02.uasset" 469
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST03.uasset" 470
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST04.uasset" 471
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_ST05.uasset" 472
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_FireB_Cue.uasset" 473
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Attenuation/RocketLoop_att.uasset" 474
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_InAirLoop.uasset" 475
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_InAirLoop_Cue.uasset" 476
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower01.uasset" 477
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower02.uasset" 478
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Lower_Cue.uasset" 479
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise01.uasset" 480
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise02.uasset" 481
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_Raise_Cue.uasset" 482
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject01.uasset" 483
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject02.uasset" 484
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadEject_Cue.uasset" 485
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/RocketLauncher/RL_ReloadInsert03.uasset" 486
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_AmmoPickup.uasset" 487
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_AmmoPickup_Cue.uasset" 488
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact01.uasset" 489
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact02.uasset" 490
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact03.uasset" 491
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact04.uasset" 492
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpact05.uasset" 493
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactA_Cue.uasset" 494
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB05.uasset" 495
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB06.uasset" 496
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB08.uasset" 497
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB12.uasset" 498
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB16.uasset" 499
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_BulletImpactB_Cue.uasset" 500
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Lower.uasset" 501
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Lower_Cue.uasset" 502
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Raise.uasset" 503
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_Raise_Cue.uasset" 504
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell01.uasset" 505
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell02.uasset" 506
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell03.uasset" 507
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell04.uasset" 508
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell05.uasset" 509
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/Shotgun/Shotgun_ReloadShell_Cue.uasset" 510
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup01.uasset" 511
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup01_Cue.uasset" 512
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup02.uasset" 513
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup02_Cue.uasset" 514
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup03.uasset" 515
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_AmmoPickup03_Cue.uasset" 516
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact01.uasset" 517
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact02.uasset" 518
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact03.uasset" 519
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact04.uasset" 520
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact05.uasset" 521
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletImpact_Cue.uasset" 522
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip01.uasset" 523
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip02.uasset" 524
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip03.uasset" 525
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip04.uasset" 526
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip05.uasset" 527
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip06.uasset" 528
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_BulletWhip_Cue.uasset" 529
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Lower.uasset" 530
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Lower_Cue.uasset" 531
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Raise.uasset" 532
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_Raise_Cue.uasset" 533
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomIn.uasset" 534
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomIn_Cue.uasset" 535
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomOut.uasset" 536
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Sound/SniperRifle/SR_ZoomOut_Cue.uasset" 537
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Sounds/Shoot_Pistol_Sound.uasset" 538
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Sounds/Shoot_Shotgun_Sound.uasset" 539
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Textures/Crosshair1.uasset" 540
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 541
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Materials/TextMaterial.uasset" 542
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/TextRender.uasset" 543
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/Weapons/Weapon.uasset" 544
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 545
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 546
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_PistolVer1_Inst.uasset" 547
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_PhysicsAsset.uasset" 548
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol.uasset" 549
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/Weapons/Pistol.uasset" 550
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_ShotgunVer1_Inst.uasset" 551
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_PhysicsAsset.uasset" 552
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun.uasset" 553
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/Weapons/Shotgun.uasset" 554
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Timelines/Sin.uasset" 555
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPCharacter.uasset" 556
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/BlueprintLibrary/get_FPScharacter.uasset" 557
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/UI/HUD.uasset" 558
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/UI/FPSHUD.uasset" 559
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 560
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 561
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 562
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 563
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 564
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 565
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 566
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 567
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 568
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 569
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 570
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 571
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 572
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 573
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 574
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 575
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 576
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 577
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 578
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 579
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 580
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 581
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 582
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 583
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 584
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 585
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 586
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 587
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 588
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 589
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 590
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 591
+"../../../Engine/Content/EditorResources/S_Note.uasset" 592
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 593
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 594
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 595
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 596
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 597
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 598
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 599
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 600
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 601
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 602
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 603
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 604
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 605
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 606
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 607
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 608
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 609
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 610
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 611
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 612
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 613
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 614
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 615
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 616
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 617
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 618
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 619
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 620
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 621
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 622
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 623
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 624
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 625
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 626
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 627
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 628
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 629
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 630
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 631
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 632
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 633
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 634
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 635
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 636
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 637
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 638
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 639
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 640
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 641
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 642
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 643
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 644
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 645
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 646
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 647
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 648
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 649
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 650
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 651
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 652
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 653
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 654
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 655
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 656
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 657
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 658
+"../../../Engine/Content/EngineSounds/Master.uasset" 659
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 660
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 661
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 662
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 663
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 664
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 665
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 666
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 667
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 668
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 669
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 670
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 671
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 672
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 673
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 674
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 675
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 676
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 677
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 678
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 679
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 680
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 681
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 682
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 683
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 684
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 685
+"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 686
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 687
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 688
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 689
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 690
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 691
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 692
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 693
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 694
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 695
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 696
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 697
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 698
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 699
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 700
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 701
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 702
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 703
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraBooleanLogicOps.uasset" 704
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraExpansionMode.uasset" 705
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraOrientationAxis.uasset" 706
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 707
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 708
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 709
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 710
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 711
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 712
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 713
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 714
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 715
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 716
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 717
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 718
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 719
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 720
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 721
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 722
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 723
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 724
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 725
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 726
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Elevator.uasset" 727
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Blue.uasset" 728
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/TargetDummy.uasset" 729
+"../../../Engine/Content/BasicShapes/Cube1.uasset" 730
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/AI/Waiter_Sphere001_Blueprint.uasset" 731
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/WaveSystem/CustomSpawnPoint.uasset" 732
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/MainLevel_BuiltData.uasset" 733
+"../../../Engine/Content/VREditor/BasicMeshes/T_CleanFloorGrunge_01_D.uasset" 734
+"../../../Engine/Content/VREditor/BasicMeshes/M_Floor_01.uasset" 735
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Cristal.uasset" 736
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Green.uasset" 737
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Art/Textures/camareros_concept.uasset" 738
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Waiter.uasset" 739
+"../../../Engine/Content/BasicShapes/Cone.uasset" 740
+"../../../Engine/Content/BasicShapes/Plane.uasset" 741
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 742
+"../../../Engine/Content/VREditor/BasicMeshes/MI_Ball_01.uasset" 743
+"../../../Engine/Content/VREditor/BasicMeshes/SM_Ball_01.uasset" 744
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/MainLevel.umap" 745
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/UI/Options.uasset" 746
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/UI/MainMenu.uasset" 747
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/MainMenu.umap" 748
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 749
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 750
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 751
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 752
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 753
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 754
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 755
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 756
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 757
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPSHUD.uasset" 758
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Controllers/FPTestGameMode.uasset" 759
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym_BuiltData.uasset" 760
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Materials/Default.uasset" 761
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym.umap" 762
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Environment/sentToMenu_Blueprint.uasset" 763
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Materials/White.uasset" 764
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/TestGym_movement.umap" 765
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/Levels/tmp_level.umap" 766
+"../../../Engine/Content/TemplateResources/M_Template_Master.uasset" 767
+"../../../Engine/Content/TemplateResources/MI_Template_BaseGray_03_Metal.uasset" 768
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_AssualtRifleVer1_Inst.uasset" 769
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_PhysicsAsset.uasset" 770
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle.uasset" 771
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Ammo.uasset" 772
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_AssaultRifle_Pickup.uasset" 773
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_GrenadeLauncherVer1_Inst.uasset" 774
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_PhysicsAsset.uasset" 775
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher.uasset" 776
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Ammo.uasset" 777
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_GrenadeLauncher_Pickup.uasset" 778
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_D.uasset" 779
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_M.uasset" 780
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Textures/T_Prototype_Knife_N.uasset" 781
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_Knife.uasset" 782
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife_PhysicsAsset.uasset" 783
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife_Skeleton.uasset" 784
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Knife.uasset" 785
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Ammo.uasset" 786
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Pistol_Pickup.uasset" 787
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_RocketLauncherVer1_Inst.uasset" 788
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_PhysicsAsset.uasset" 789
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher.uasset" 790
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Ammo.uasset" 791
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_RocketLauncher_Pickup.uasset" 792
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Ammo.uasset" 793
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_Shotgun_Pickup.uasset" 794
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Materials/M_SniperRifle_Inst.uasset" 795
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_PhysicsAsset.uasset" 796
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle.uasset" 797
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Ammo.uasset" 798
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Prototype_SniperRifle_Pickup.uasset" 799
+"../../../../../../Users/joaquin.bilbao/Documents/GitKraken/2019-Fall-FPS/FPSTest 4.22/Content/PrototypeWeap/Showcase.umap" 800
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 801
+"../../../Engine/Content/Maps/Entry.umap" 802
