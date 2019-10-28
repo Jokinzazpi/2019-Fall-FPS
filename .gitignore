@@ -1,4 +1,6 @@
-Resources/
+Resources/**/!*.uasset
+*.mtl
+
 
 # Visual Studio 2015 user specific files
 .vs/
@@ -45,11 +47,6 @@ Resources/
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
-
-# Model folder
-Models/
-
-
 
 # Binary Files
 Binaries/
