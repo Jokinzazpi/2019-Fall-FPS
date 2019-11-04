@@ -1,4 +1,8 @@
-Resources/**/!*.uasset
+Astra/Content/Resources/**/*.psd
+Astra/Content/Resources/**/*.jpg
+
+#always upload .uassets
+!**/*.uasset
 *.mtl
 
 
