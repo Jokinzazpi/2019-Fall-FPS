@@ -1,5 +1,6 @@
 Astra/Content/Resources/**/*.psd
 Astra/Content/Resources/**/*.jpg
+Astra/Content/Resources/**/*.png
 Resources/
 
 #always upload .uassets
