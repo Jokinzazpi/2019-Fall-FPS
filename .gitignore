@@ -1,4 +1,10 @@
-Resources/**/!*.uasset
+Astra/Content/Resources/**/*.psd
+Astra/Content/Resources/**/*.jpg
+Astra/Content/Resources/**/*.png
+Resources/
+
+#always upload .uassets
+!**/*.uasset
 *.mtl
 
 
@@ -7,6 +13,7 @@ Resources/**/!*.uasset
 
 # Compiled Object files
 *.slo
+
 *.lo
 *.o
 *.obj
