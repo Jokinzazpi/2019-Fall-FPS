@@ -8,6 +8,8 @@
 
 #define MUTEX_NAME "astra_absolut_games_single_instance_mutex"
 
+#include "Kismet/KismetSystemLibrary.h"
+
 void UInstanceInator::check_for_multiple_instances()
 {
 
@@ -27,7 +29,7 @@ void UInstanceInator::check_for_multiple_instances()
     if (last_error == ERROR_ALREADY_EXISTS)
     {
         CloseHandle(mutex_handle);
-        std::exit(0);
+        FGenericPlatformMisc::RequestExit(false);
     }
 #endif
 
