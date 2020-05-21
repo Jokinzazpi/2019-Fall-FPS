@@ -14,7 +14,9 @@ class FPSTEST_API AFPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
-	
+public:
+	UFUNCTION(BlueprintCallable)
+		bool check_for_out_of_focus();
 	
 	
 };
